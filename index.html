@@ -1,0 +1,257 @@
+<html>
+<head>
+<style type="text/css">
+p
+{
+border-style:none;
+background-color:LightGray;
+font-style: oblique;
+}
+</style>
+<script type="text/javascript">
+function validate()
+{
+var  logiquizmarks=0;
+var a=document.getElementsByName("one");
+if(a[0].checked==false && a[1].checked==false && a[2].checked==false && a[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(a[1].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q1");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q1");
+  x.style.color="red";
+}
+var b=document.getElementsByName("two");
+if(b[0].checked==false && b[1].checked==false && b[2].checked==false && b[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(b[2].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q2");
+  x.style.color="green";
+}
+else
+{
+var x=document.getElementById("q2");
+  x.style.color="red";
+}
+var c=document.getElementsByName("three");
+if(c[0].checked==false && c[1].checked==false && c[2].checked==false && c[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(c[0].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q3");
+  x.style.color="green";
+}
+else
+{
+var x=document.getElementById("q3");
+  x.style.color="red";
+}
+var d=document.getElementsByName("four");
+if(d[0].checked==false && d[1].checked==false && d[2].checked==false && d[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(d[3].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q4");
+  x.style.color="green";
+}
+else
+{
+var x=document.getElementById("q4");
+  x.style.color="red";
+}
+var e=document.getElementsByName("five");
+if(e[0].checked==false && e[1].checked==false && e[2].checked==false && e[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(e[0].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q5");
+  x.style.color="green";
+}
+else
+{
+var x=document.getElementById("q5");
+  x.style.color="red";
+}
+var f=document.getElementsByName("six");
+if(f[0].checked==false && f[1].checked==false && f[2].checked==false && f[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(f[0].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q6");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q6");
+  x.style.color="red";
+}
+var g=document.getElementsByName("seven");
+if(g[0].checked==false && g[1].checked==false && g[2].checked==false && g[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(g[2].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q7");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q7");
+  x.style.color="red";
+}
+var h=document.getElementsByName("eight");
+if(h[0].checked==false && h[1].checked==false && h[2].checked==false && h[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(h[3].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q8");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q8");
+  x.style.color="red";
+}
+var i=document.getElementsByName("nine");
+if(i[0].checked==false && i[1].checked==false && i[2].checked==false && i[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(i[0].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q9");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q9");
+  x.style.color="red";
+}
+var j=document.getElementsByName("ten");
+if(j[0].checked==false && j[1].checked==false && j[2].checked==false && j[3].checked==false)
+  alert("PLEASE SELECT ANY ONE OPTION");
+if(j[0].checked==true && j[1].checked==true)
+{
+  logiquizmarks+=1;
+  var x=document.getElementById("q10");
+  x.style.color="green";
+}
+else
+{
+  var x=document.getElementById("q10");
+  x.style.color="red";
+}
+alert("YOU SCORED"+" "+logiquizmarks+"/"+"10");
+}
+</script>
+</head>
+<style>
+body {
+  background-image: url('jagan.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;;
+}
+</style>
+</head>
+<body>
+<h1 style="color:purple"><center>Information Technology Quiz</center></h1>
+<h2>Instructions and Rules</h2>
+
+<ul>
+  <h4><li>There are totally ten questions and  questions shall be in the form of multiple choice.</li></h4>
+  <h4><li>For every right answer, 1 mark will be awarded.</li></h4>
+  <h4><li>There is no negative marking for wrong answer.</li></h4>
+  <h4><li>The participants shall not be allowed to use mobile or other electronic instruments. </li></h4>
+  <h4><li>Audience/Supporters shall not give any hints or clues to the competitors.</li></hr>
+  <h4><li>Be true to yourself.</li></h4>
+  <h4><li>All the best!</li></h4>
+</ul>
+<form>
+<marquee behavior="scroll" direction="left" scrollamount="20"><h1 style="color:red"><center>EITHER WIN OR LEARN</center></h1></p></marquee>
+<form>
+<h2><p id="q1"> 1) Which company first developed the Java programming language?</p></h2>
+<input type="radio" name="one" >Google<br>
+<input type="radio" name="one" >Sun Microsystems<br>
+<input type="radio" name="one" >IBM<br>
+<input type="radio" name="one" >Microsoft<br>
+<br>
+<br>
+<h2><p id="q2"> 2) Which web browser is provided default with a Windows machine?</p></h2>
+<input type="radio" name="two" >Chrome<br>
+<input type="radio" name="two" >Opera<br>
+<input type="radio" name="two" >IE<br>
+<input type="radio" name="two" >None Of These<br>
+<br>
+<br>
+<h2><p id="q3">3) Which supercomputer is developed by the Indian Scientists?</p></h2>
+<input type="radio" name="three" >Param<br>
+<input type="radio" name="three" >Super 301<br>
+<input type="radio" name="three" >Compaq Presario<br>
+<input type="radio" name="three" >CRAY YMP<br>
+<br>
+<br>
+<h2><p id="q4">4) Which company bought the popular video teleconferencing software 'Skype' </p></h2>
+<input type="radio" name="four" >TCS<br>
+<input type="radio" name="four" >CTS<br>
+<input type="radio" name="four" >Wipro<br>
+<input type="radio" name="four" >Microsoft<br>
+<br>
+<br>
+<h2><p id="q5">5) The maximum speed at which the data can be transmitted on each channel of a standard PCM stream is</p></h2>
+<input type="radio" name="five" >64 kbps<br>
+<input type="radio" name="five" >128 kbps<br>
+<input type="radio" name="five" >1 mbps<br>
+<input type="radio" name="five" >None Of These<br>
+<br>
+<br>
+<h2><p id="q6">6) What is the limit of characters for a tweet on Twitter?</p></h2>
+<input type="radio" name="six" >140<br>
+<input type="radio" name="six" >120<br>
+<input type="radio" name="six" >100<br>
+<input type="radio" name="six" >80<br>
+<br>
+<br>
+<h2><p id="q7">7) Which type of files cannot be navigated using Clip Art browser?</p></h2>
+<input type="radio" name="seven" >BMP<br>
+<input type="radio" name="seven" >AVI<br>
+<input type="radio" name="seven" >MP3<br>
+<input type="radio" name="seven" >WAV<br>
+<br>
+<br>
+<h2><p id="q8">8) Basic Interface in ISDN refers to the transmission speed of </p></h2>
+<input type="radio" name="eight" >1.54 mpbs<br>
+<input type="radio" name="eight" >128 kbps<br>
+<input type="radio" name="eight" >64 kbps<br>
+<input type="radio" name="eight" >144 Kbps<br>
+<br>
+<br>
+<h2><p id="q9">9) When a computer is turned on, a special type of absolute loader is executed known as</p></h2>
+<input type="radio" name="nine" >Bootstrap Loader<br>
+<input type="radio" name="nine" >Compile and Go' Loader<br>
+<input type="radio" name="nine" >PreBoot Loader<br>
+<input type="radio" name="nine" >Relating Loader<br>
+<br>
+<br>
+<h2><p id="q10">10) The term operating system refers to</p></h2>
+<input type="checkbox" name="ten" >a set of program which control computer working<br>
+<input type="checkbox" name="ten" >system software that manages computer hardware, software resources, and provides common services for computer programs<br>
+<input type="checkbox" name="ten" >conversion of high level language into machine code<br>
+<input type="checkbox" name="ten" >the way a floppy disc drive operates<br>
+<br>
+<br>
+<h1><center><input type="button" value="EVALUATE" onclick="validate()" style="background-color:DodgerBlue"></center></h1>
+</form>
+</body>
+</html>
